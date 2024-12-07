@@ -1,0 +1,69 @@
+body {
+    background: linear-gradient(135deg, #FFF0D1, #795757);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #3B3030;
+}
+
+.card {
+    background: rgba(255, 240, 209, 0.7); 
+    border: 2px solid #664343; 
+    border-radius: 20px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 240, 209, 0.9); 
+}
+
+.card-title {
+    font-weight: 700;
+    color: #3B3030;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #795757;
+}
+
+.text-center {
+    font-weight: 700;
+    color: #FFF0D1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.row {
+    gap: 20px; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #FFF0D1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #664343; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #795757; 
+}
